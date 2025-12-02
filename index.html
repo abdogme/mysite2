@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>موقعي الشخصي | Web Developer</title>
+		<!-- استدعاء خط عربي جميل من جوجل -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- تأثير الخلفية المتحركة -->
+		<canvas id="canvas-bg"></canvas>
+
+		<!-- القائمة العلوية -->
+		<nav>
+			<div class="logo">&lt;Code/&gt;</div>
+			<ul>
+				<li><a href="#home">الرئيسية</a></li>
+				<li><a href="#about">عني</a></li>
+				<li><a href="#skills">مهاراتي</a></li>
+				<li><a href="#projects">مشاريعي</a></li>
+				<li><a href="#contact">تواصل معي</a></li>
+			</ul>
+		</nav>
+
+		<!-- قسم الواجهة الرئيسية -->
+		<header id="home">
+			<div class="content">
+				<h1>مرحباً، أنا <span class="highlight">مطوّر ويب</span></h1>
+				<p>طالب ومطور شغوف ببناء منصات وتطبيقات ويب حديثة.</p>
+				<a href="#projects" class="btn">شاهد أعمالي</a>
+			</div>
+		</header>
+
+		<!-- قسم "عني" -->
+		<section id="about" class="section">
+			<h2>من أنا؟</h2>
+			<p>
+				أنا مطور ويب (Full Stack) مقيم في مصر. أدرس حالياً وأعمل على تطوير
+				مشاريع خاصة، منها منصة بث متكاملة. أحب حل المشاكل البرمجية والعمل
+				بتقنيات مثل Node.js و React.
+			</p>
+		</section>
+
+		<!-- قسم المهارات -->
+		<section id="skills" class="section">
+			<h2>مهاراتي التقنية</h2>
+			<div class="skills-grid">
+				<div class="skill-card">HTML & CSS</div>
+				<div class="skill-card">JavaScript (ES6+)</div>
+				<div class="skill-card">Node.js & Express</div>
+				<div class="skill-card">MongoDB</div>
+				<div class="skill-card">API Integration</div>
+				<div class="skill-card">Git & GitHub</div>
+			</div>
+		</section>
+
+		<!-- قسم المشاريع -->
+		<section id="projects" class="section">
+			<h2>أحدث المشاريع</h2>
+			<div class="projects-grid">
+				<!-- مشروع 1 -->
+				<div class="project-card">
+					<h3>منصة بث (Streaming App)</h3>
+					<p>منصة تفاعلية تعرض فيديوهات وبيانات الستريمرز باستخدام API خاص.</p>
+					<div class="tech-stack"><span>Node.js</span><span>JS</span></div>
+				</div>
+				<!-- مشروع 2 -->
+				<div class="project-card">
+					<h3>بحث ذكي (Autocomplete)</h3>
+					<p>
+						نظام بحث يقترح الأسماء تلقائياً أثناء الكتابة مع جلب البيانات
+						لحظياً.
+					</p>
+					<div class="tech-stack"><span>Frontend</span><span>API</span></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- قسم التواصل -->
+		<section id="contact" class="section">
+			<h2>تواصل معي</h2>
+			<p>هل لديك فكرة مشروع أو استفسار؟</p>
+			<a href="mailto:email@example.com" class="btn">أرسل إيميلاً</a>
+		</section>
+
+		<footer>
+			<p>جميع الحقوق محفوظة © 2025</p>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
